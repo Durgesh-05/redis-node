@@ -1,0 +1,19 @@
+{
+  "name": "expres-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/index.js",
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Durgesh Dubey",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "epxress": "^0.0.1-security",
+    "redis": "^4.7.0"
+  }
+}
